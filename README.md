@@ -1,6 +1,3 @@
-# Health_Insurance_Cost_Prediction_App
-
-# Health Insurance Cost Prediction App
 
 ![Health Insurance Cost Prediction](./banner.png)
 
