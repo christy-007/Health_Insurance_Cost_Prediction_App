@@ -1,10 +1,9 @@
-
 ![Health Insurance Cost Prediction](./banner.png)
 
 # Health Insurance Cost Prediction App
 
 ## About the Project
-This project involves building a machine learning model to predict health insurance costs based on various personal and health-related features. The main goal is to provide an easy-to-use web application where users can input their details and receive an estimated insurance cost instantly. The project leverages Streamlit for the frontend and is deployed on Heroku for accessibility.
+This project involves building a machine learning model to predict health insurance costs based on various personal and health-related features. The main goal is to provide an easy-to-use web application where users can input their details and receive an estimated insurance cost instantly. The project leverages Streamlit for the frontend and is deployed on Streamlit's cloud platform for accessibility.
 
 ## Project Overview
 
@@ -19,13 +18,13 @@ The primary objective of this project is to predict health insurance costs using
 ### Technology Stack
 - **Frontend:** Streamlit for the web interface.
 - **Backend:** Python for model training and prediction.
-- **Deployment:** Heroku for hosting the web app.
+- **Deployment:** Streamlit Cloud for hosting the web app.
 - **Libraries:** pandas, scikit-learn, joblib, matplotlib, tkinter.
 
 ### Dataset
 The dataset used for this project is obtained from Kaggle, which includes features such as age, sex, BMI, number of children, smoking status, and region. This dataset is crucial for training the machine learning model to make accurate predictions.
 
-- [Dataset on Kaggle](https://www.kaggle.com/datasets)
+- [Dataset on Kaggle](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
 
 ## Installation
 To run the application locally, follow these steps:
@@ -55,32 +54,15 @@ To run the application locally, follow these steps:
 You can now view the app in your browser at `http://localhost:8501`.
 
 ## Deployment
-The application is deployed on Heroku. To deploy your own version:
+The application is deployed on Streamlit Cloud. To deploy your own version:
 
-1. **Create a `Procfile` for Heroku:**
-    ```arduino
-    web: streamlit run health_insurance.py
-    ```
+1. **Push your repository to GitHub.**
 
-2. **Install Heroku CLI and login:**
-    ```bash
-    heroku login
-    ```
+2. **Go to Streamlit Cloud and connect your GitHub repository.**
 
-3. **Create a new Heroku app:**
-    ```bash
-    heroku create your-app-name
-    ```
+3. **Deploy your app directly from the Streamlit Cloud interface.**
 
-4. **Deploy the app:**
-    ```bash
-    git push heroku main
-    ```
-
-5. **Open the app in your browser:**
-    ```bash
-    heroku open
-    ```
+You can view the live app at [Health Insurance Cost Prediction App](https://kqzgkgjvmqubfdvxqlefkx.streamlit.app/).
 
 ## Model Training and Evaluation
 The model is trained using various regression algorithms including Linear Regression, Support Vector Regressor (SVR), Random Forest Regressor, and Gradient Boosting Regressor. The dataset is preprocessed to convert categorical variables into numerical values.
@@ -100,8 +82,6 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 This project is licensed under the MIT License.
 
 ## Links
-- [Dataset on Kaggle](https://www.kaggle.com/datasets)
-- [Live Web App](https://your-app-name.herokuapp.com)
+- [Dataset on Kaggle](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
+- [Live Web App](https://kqzgkgjvmqubfdvxqlefkx.streamlit.app/)
 - [Streamlit](https://streamlit.io/)
-- [Heroku](https://www.heroku.com/)
-
