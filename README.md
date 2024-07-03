@@ -2,6 +2,8 @@
 
 # Health Insurance Cost Prediction App
 
+You can view the live app at [Health Insurance Cost Prediction App](https://kqzgkgjvmqubfdvxqlefkx.streamlit.app/).
+
 ## About the Project
 This project involves building a machine learning model to predict health insurance costs based on various personal and health-related features. The main goal is to provide an easy-to-use web application where users can input their details and receive an estimated insurance cost instantly. The project leverages Streamlit for the frontend and is deployed on Streamlit's cloud platform for accessibility.
 
